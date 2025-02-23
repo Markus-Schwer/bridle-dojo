@@ -18,7 +18,7 @@ ARG USER_GID=$USER_UID
 # * Anything else you want to do like clean up goes here *
 # ********************************************************
 
-USER $USERNAME
+USER ubuntu
 
 RUN mkdir -p /home/ubuntu/ws
 
