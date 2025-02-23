@@ -59,7 +59,7 @@ ARG USER_GID=$USER_UID
 # ********************************************************
 
 # [Optional] Set the default user. Omit if you want to keep the default as root.
-RUN apt install -y --no-install-recommends python3-venv
+RUN apt install -y --no-install-recommends python3-venv curl
 USER $USERNAME
 
 RUN mkdir /home/ubuntu/ws
